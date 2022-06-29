@@ -4,76 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>header</title>
+    <title>header</title>    
     <style>
-        .head{position:relative;
-             width: 1750px;
-             height: 130px;
-             background-color: rgb(255, 254, 239);
+ 
+        .wrap12{position:relative;
+             width: 101vw;
+             height: 8vw;
+             background-color: rgb(246, 245, 230);
              margin: -20px;
-    
-        }
-        .icon{position:absolute; width: 1700px;
-             height: 120px;
-  
-             background-image: url("https://www.starbucks.co.kr/common/img/common/logo.png");
-             background-repeat: no-repeat;
-             margin: 30px;
-             Background-position: 280px 5px;}
-
-        .font{position:absolute;
-              height: 66px;
-              width: 750px;
-              display:flex;
-              padding: 50px;
-              padding-top: 55px;
-              font-size:14px;
-              align-items: center;
-              justify-content: space-around;
-              margin-left: 630px;
-
+             
             }
 
-            #f:hover{
-                background-color: rgb(46, 43, 43);
-                padding: 18px;
-                padding-bottom: 30px;
-            cursor: pointer;
-            text-decoration: underline;
-            color: rgb(76, 151, 76);
-        }
+        .icon{position:absolute; width: 100vw;
+             height: 5vw;
+             background-image: url("https://www.starbucks.co.kr/common/img/common/logo.png");
+             background-repeat: no-repeat;
+             margin: 2vw;
+             Background-position: 15vw 0vh;
+            }
+
+
 
             #f2:hover{
-            cursor: pointer;}
+            cursor: pointer;
+            }
 
 
  
 
 
         .font2{position:absolute;
-              height: 0px;
               display:flex;
-              width: 500px;
-              padding: 30px;
+              width: 35vw;
+              padding: 2vw;
               font-size:12px;
               align-items: center;
               justify-content: space-around;
-              margin-left: 800px;
-         }
-/* 
-         .img{ display: flex;
-              padding: 15px;
-              flex-direction:inherit;} */
-         
+              margin-left: 45vw;
+            }
 
 
-
-        /* .container{display: flex; 
-            flex-direction: row;
-            justify-content: space-evenly;
-        } */
+        .font{position:absolute;
+              height: 50vw;
+              width: 55vw;
+              display:flex;
+              padding: 4vw;
+              padding-top:5vw;
+              font-size:14px;
+              justify-content: space-around;
+              margin-left: 28vw;
+              text-align: center;
+              line-height: 2vw;
+              
+            }
 
     
+        .wrap12 .font div{
+           text-align: center;
+            color:black;
+            width: 50vw;
+            height: 7vh;
+
+        }
+
+        .wrap12 .font div:hover{
+            background-color: rgb(46, 43, 43);
+              cursor: pointer;
+              text-decoration: underline;
+              color: rgb(76, 151, 76);
+       
+        }
+
+
+        
+    .coffee:hover{
+        position: absolute;
+        top: 7vw;
+        background-color: rgb(46, 43, 43);
+        width: 100vw;
+        height: 30vw;
+    }
+
+
 
         
      
@@ -82,16 +94,17 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="head">
-            <div class="icon"></div>
+
+    <div class="wrap12">
         <div class="font">
-            <div id="f" class="COFFEE">COFFEE</div>
-            <div id="f">MENU</div>
-            <div id="f">STORE</div>
-            <div id="f">RESPONSIBILITY</div>
-            <div id="f">STARBUCKS REWARDS</div>
-            <div id="f">WHAT'S NEW</div>
+            <div>COFFEE</div>
+            <div>MENU</div>
+            <div>STORE</div>
+            <div>RESPONSIBILITY</div>
+            <div>STARBUCKS REWARDS</div>
+            <div>WHAT'S NEW</div>
+        </div>
+        <div class="icon">
         </div>
         <div class="font2">
             <div id="f2">Sign In</div>
@@ -99,16 +112,10 @@
             <div id="f2">Customer Service & Ideas</div>
             <div id="f2">Find a Store</div>
         </div>
-<!-- 
-            <div id="f" class="img"><img src="/noun_684726.png" width="30px" height="30px"></div> -->
-    
+        <div class="coffee"></div>
+        
 
-
-         
-
-        </div>
     </div>
-
 
 </body>
 </html>

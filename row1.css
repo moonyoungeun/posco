@@ -1,0 +1,103 @@
+body {
+    box-sizing: border-box;
+    font-family: 'nbg', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+}
+
+.container {
+    /* position: relative; */
+}
+
+.row1_wrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+
+.row1 {
+    position: relative;
+    height: 646px;
+    background-image: url("https://image.istarbucks.co.kr/upload/common/img/main/2022/Summer1_ph2_main_bg_02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slogan {
+    position: relative;
+    top: 50px;
+    left: 26px;
+    width: 593px;
+    height: 43px;
+    background-image: url("https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_Summer1_ph2_main_title.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu_set {
+    display: inline-flex;
+}
+
+.st_menu {
+    position: relative;
+    left: 65px;
+    top: 141px;
+    width: 564px;
+    height: 326px;
+    background-image: url("https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_Summer1_ph2_main_strawberryacailemonade_02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ps_menu {
+    position: relative;
+    left: 120px;
+    top: 46px;
+    width: 267px;
+    height: 423px;
+    background-image: url("https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_Summer1_ph2_main_purplesourblended.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.mf_menu {
+    position: relative;
+    left: 80px;
+    top: 176px;
+    width: 381px;
+    height: 351px;
+    background-image: url("https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_Summer1_ph2_main_coffeedrawingmalcha.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.btn_menu {
+    position: relative;
+    left: 8px;
+    top: 74px;
+    width: 130px;
+    height: 38px;
+    border: 2px solid rgb(28, 56, 49);
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 32px;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(28, 56, 49);
+}
+
+.btn_menu:hover {
+    cursor: pointer;
+    background-color: rgb(28, 56, 49);
+    color: white;
+    text-decoration: underline;
+}
